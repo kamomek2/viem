@@ -220,6 +220,8 @@ abstract contract StdChains {
             ChainData("BNB Smart Chain Testnet", 97, "https://rpc.ankr.com/bsc_testnet_chapel")
         );
         setChainWithDefaultRpcUrl("gnosis_chain", ChainData("Gnosis Chain", 100, "https://rpc.gnosischain.com"));
+        setChainWithDefaultRpcUrl("zetachain", ChainData("ZetaChain", 7000, "https://zeta-chain.drpc.org"));
+        setChainWithDefaultRpcUrl("zetachain_athens_testnet", ChainData("ZetaChain Athens Testnet", 7001, "https://zeta-chain-testnet.drpc.org"));
     }
 
     // set chain info, with priority to chainAlias' rpc url in foundry.toml

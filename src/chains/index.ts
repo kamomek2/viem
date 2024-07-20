@@ -131,5 +131,7 @@ export const zkSync = /*#__PURE__*/ defineChain(chains.zkSync)
 export const zkSyncTestnet = /*#__PURE__*/ defineChain(chains.zkSyncTestnet)
 export const zora = /*#__PURE__*/ defineChain(chains.zora)
 export const zoraTestnet = /*#__PURE__*/ defineChain(chains.zoraTestnet)
+export const zetachain = /*#__PURE__*/ defineChain(chains.zetachain)
+export const zetachainAthensTestnet = /*#__PURE__*/ defineChain(chains.zetachainAthensTestnet)
 
 export type { Chain } from '../types/chain.js'
